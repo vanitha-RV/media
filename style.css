@@ -1,0 +1,338 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.head
+{
+    background-image: url("http://ts3.mm.bing.net/th?id=OIP.oEk1ON2Eio4HlEQkk6sIpQHaEK&pid=15.1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position:relative;
+    
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width:85%;
+}
+.logo
+{
+    margin-left:30px;
+}
+
+button
+{
+    color: white;
+    padding: 10px 25px;
+    background:transparent;
+    border:3px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.content
+{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    font-size : 25px;
+    color:aqua;
+}
+.sidebar img
+{
+    width:25px;
+    height:25px;
+    
+}
+.sidebar
+{
+
+    background-image: linear-gradient(red, yellow, blue);
+    border-left:2px solid white;
+    position:absolute;
+    right:0;
+    height:100%;
+    top: 0px;;
+    width:50px;
+}
+.useful-links
+{
+    position: absolute;
+    bottom:10px;
+}
+.social-links
+{
+    top:50%;
+    transform:translateY(-50%);
+    position:absolute;
+}
+
+.raindrop img{
+
+    width:50px;
+}
+.menu
+{
+    margin-top:20px;
+    margin-left:10px;
+    
+}
+.social-links img,.useful-links
+{
+    margin-left:10px;
+}
+.raindrop
+{
+    position: absolute;
+    bottom:0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+
+}
+.raindrop img{
+    width:50px;
+    animation: sample 7s linear infinite;
+    
+
+}
+@keyframes sample
+{
+    0%
+    {
+      opacity: 0;
+      transform: translateY(0);
+    }
+    50%{
+        opacity:1;
+
+    }
+    70%
+    {
+      opacity:1;
+    }
+    100%
+    {
+      opacity:0;
+      transform: translateY(-90vh);
+    }
+}
+.raindrop img:nth-child(1)
+{
+    animation-delay:1s;
+    width: 25px;
+    height: 25px;
+    
+}
+.raindrop img:nth-child(2)
+{
+    width: 20px;
+    height:20px;
+    animation-delay:1.5s;
+    
+}.raindrop img:nth-child(3)
+{
+      width:35px;
+      height:35px;
+    animation-delay:2s;
+    
+}.raindrop img:nth-child(4)
+{
+
+    animation-delay:3s;
+    
+}.raindrop img:nth-child(5)
+{
+
+    animation-delay:3.5s;
+    
+}.raindrop img:nth-child(6)
+{
+  width:40px;
+  height:40px;
+    animation-delay:7s;
+    
+}
+/* @media screen and (max-width:450px)
+{
+    .head
+    {
+
+    
+        background-image:url("images/bc1.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position:relative;
+        
+    }
+    .content
+{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    font-size : 15px;
+    color:aqua;
+}
+
+.sidebar
+{
+
+    background-image: linear-gradient(red, yellow, blue);
+    border-top:2px solid white;
+    position:absolute;
+    bottom:0;
+    height:50%;
+    width:100px;
+    top: auto;
+    
+}
+.menu 
+{
+    margin-top:20px;
+    margin-left:10px;
+    
+}
+.social-links,.useful-links{
+
+    margin-left:10px;
+
+}
+
+.useful-links
+{
+    position: absolute;
+    right: 0;
+}
+.social-links
+{     
+    
+       position:absolute;
+    margin-left:130px;
+}
+.menu{
+    margin-top:10px;
+    margin-left:10px;
+    width:10px;
+}
+} */
+@media screen and (min-width:451px) and (max-width:600px)
+{
+    .head
+    {
+
+    
+        background-image:url("http://ts4.mm.bing.net/th?id=OIP.qkD9L5DJ462op4izzgRmPwHaEo&pid=15.1");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position:relative;
+        
+    }
+    .content
+{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    font-size : 15px;
+    color:white;
+}
+h1{
+    color: aqua;
+}
+.sidebar
+{
+
+    background-image: linear-gradient(red, yellow, blue);
+    border-left:2px solid white;
+    position:absolute;
+    bottom:0;
+    height:100%;
+    top: auto;
+    width:50px;
+}
+
+.useful-links
+{
+    position: absolute;
+    bottom:0;
+}
+.social-links
+{
+    top:50%;
+    transform:translateY(-50%);
+    position:absolute;
+
+       
+}
+.menu
+{
+    margin-top:10px;
+    margin-left:10px;
+    width:20px;
+}
+}
+@media screen and (min-width:601px) and (max-width:900px)
+{
+
+
+.head
+    {
+
+    
+        background-image:url("http://ts1.mm.bing.net/th?id=OIP.Jes6HmHYQeHOlC0WvdiVKgHaDF&pid=15.1");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position:relative;
+        
+    }
+    .content
+{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    font-size : 15px;
+    color:white;
+}
+h1{
+    color: aqua;
+}
+.sidebar
+{
+
+    background-image: linear-gradient(red, yellow, blue);
+    border-left:2px solid white;
+    position:absolute;
+    bottom:0;
+    height: 50px;;
+    top: auto;
+    width:100%;
+}
+
+.useful-links
+{
+    position: absolute;
+    right:0;
+}
+.social-links
+{
+       position:absolute;
+       margin-left:300px;
+}
+.menu
+{
+    margin-top:10px;
+    margin-left:10px;
+    width:20px;
+}
+}
